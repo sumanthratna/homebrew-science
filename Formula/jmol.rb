@@ -1,12 +1,12 @@
 class Jmol < Formula
   desc "Viewer for chemical structures in 3D"
   homepage "http://www.jmol.org"
-  url "https://downloads.sourceforge.net/jmol/Jmol/Version%2014.2/Version%2014.2.12/Jmol-14.2.12_2015.02.11-binary.zip"
+  url "https://downloads.sourceforge.net/project/jmol/Jmol/Version%2014.31/Jmol%2014.31.2/Jmol-14.31.2-binary.zip"
   version "14.2.12"
-  sha256 "eab643aece151f195baae6aba2cf0d285a7ebbc448590f2bd20a1a057894d2f0"
+  sha256 "5a574b7e9b74d3bee5573bc9342a6ab1cdb849cbf08e81ac084e11cfb8721cae"
 
   head do
-    url "https://jmol.svn.sourceforge.net/svnroot/jmol/trunk/Jmol"
+    url "https://svn.code.sf.net/p/jmol/code/trunk/Jmol"
     depends_on "ant" => :build
   end
 
